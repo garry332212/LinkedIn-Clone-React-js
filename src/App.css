@@ -1,0 +1,14 @@
+.app {
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.app_body {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top:50px;
+ 
+}
+
