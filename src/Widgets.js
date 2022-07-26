@@ -16,38 +16,35 @@ const Widgets = () => {
     </div>
   );
 
- 
-
-  return ( 
-  <>
- 
-    <div className="widgets">
-      <div className="widgets_header">
-        <h2>LinkedIn News</h2>
-        <InfoIcon />
+  return (
+    <>
+      <div className="widgets">
+        <div className="widgets_header">
+          <h2>LinkedIn News</h2>
+          <InfoIcon />
+        </div>
+        {newsArticle(
+          "New Articles",
+          "Check Out The New Articles From My NeW Course"
+        )}
+        {newsArticle("Corona Update", "100k new covid cases in Auckland")}
+        {newsArticle(
+          "React Course 101",
+          "New react course 101 has been launched "
+        )}
+        {newsArticle(
+          "Lorem Ipsum",
+          "Nobody really understood Kevin. It wasn't that he was super strange or difficult. It was more that there wasn't enough there that anyone wanted to take the time to understand him."
+        )}
+        {newsArticle(
+          "Randome Title",
+          "Debbie knew she was being selfish and unreasonable. She understood why the others in the room were angry and frustrated with her and the way she was acting"
+        )}
+        {newsArticle(
+          "What's Trending",
+          "Sidhu Moosewala Shot Dead on 29-05-222 while going for a joy ride"
+        )}
       </div>
-      {newsArticle(
-        "New Articles",
-        "Check Out The New Articles From My NeW Course"
-      )}
-      {newsArticle("Corona Update", "100k new covid cases in Auckland")}
-      {newsArticle(
-        "React Course 101",
-        "New react course 101 has been launched "
-      )}
-      {newsArticle(
-        "Udemy Parternship",
-        "Youtube Parterned with UDEMY to provide free eduaction on Youtbe Premiume Subscribers"
-      )}
-      {newsArticle(
-        "What's Trending",
-        "Sidhu Moosewala Shot Dead on 29-05-222 while going for a joy ride"
-      )}
-
-
-        {/* Widgets Bottom */}
-        
-    </div>
     </>
   );
 };

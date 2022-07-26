@@ -47,7 +47,7 @@ const Feed = () => {
           <form onSubmit={sendPost}>
             <input
               type="text"
-              placeholder="Start a Post"
+              placeholder="Type here & press Enter"
               onChange={inputTaker}
               value={message}
             />
